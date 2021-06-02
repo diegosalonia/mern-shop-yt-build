@@ -1,7 +1,7 @@
 .navbar{
     width: 100%;
     height: 110px;
-    background-color: #571313;
+    background-color: #171717;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,5 +90,11 @@
     }
     .hamburguer__menu{
         display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar__logo h2 {
+        font-size: 1rem;
     }
 }
